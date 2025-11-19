@@ -1,0 +1,1732 @@
+[
+    {
+        "type": "node",
+        "id": 1,
+        "lat": 10.7769,
+        "lon": 106.6953,
+        "tags": {
+            "name": "Dinh Độc Lập (Independence Palace)",
+            "name:en": "Independence Palace",
+            "tourism": "attraction",
+            "historic": "memorial",
+            "museum": "history",
+            "address": "135 Nam Kỳ Khởi Nghĩa, Bến Thành, Quận 1",
+            "opening_hours": "08:00 - 16:30",
+            "fee": "yes"
+        }
+    },
+    {
+        "type": "node",
+        "id": 2,
+        "lat": 10.7797,
+        "lon": 106.6990,
+        "tags": {
+            "name": "Nhà thờ Đức Bà (Notre Dame Cathedral)",
+            "name:en": "Notre Dame Cathedral of Saigon",
+            "tourism": "attraction",
+            "architecture": "french_colonial",
+            "historic": "monument",
+            "amenity": "place_of_worship",
+            "address": "01 Công xã Paris, Bến Nghé, Quận 1",
+            "opening_hours": "08:00 - 11:00, 14:00 - 16:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 3,
+        "lat": 10.7795,
+        "lon": 106.6920,
+        "tags": {
+            "name": "Bảo tàng Chứng tích Chiến tranh",
+            "name:en": "War Remnants Museum",
+            "tourism": "museum",
+            "museum": "war",
+            "historic": "memorial",
+            "address": "28 Võ Văn Tần, Võ Thị Sáu, Quận 3",
+            "opening_hours": "07:30 - 17:30",
+            "fee": "yes"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4,
+        "lat": 10.7674,
+        "lon": 106.6939,
+        "tags": {
+            "name": "Phố tây Bùi Viện",
+            "name:en": "Bui Vien Walking Street",
+            "tourism": "attraction",
+            "amenity": "bar",
+            "nightlife": "district",
+            "cuisine": "street_food",
+            "address": "Bùi Viện, Phạm Ngũ Lão, Quận 1",
+            "opening_hours": "18:00 - 04:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 5,
+        "lat": 10.7736,
+        "lon": 106.7024,
+        "tags": {
+            "name": "Phố đi bộ Nguyễn Huệ",
+            "name:en": "Nguyen Hue Walking Street",
+            "highway": "pedestrian",
+            "leisure": "park",
+            "tourism": "attraction",
+            "address": "Nguyễn Huệ, Bến Nghé, Quận 1",
+            "opening_hours": "24/7"
+        }
+    },
+    {
+        "type": "node",
+        "id": 6,
+        "lat": 10.7741,
+        "lon": 106.7041,
+        "tags": {
+            "name": "The Workshop Coffee",
+            "amenity": "cafe",
+            "food": "coffee",
+            "atmosphere": "quiet",
+            "internet_access": "wlan",
+            "address": "27 Ngô Đức Kế, Bến Nghé, Quận 1",
+            "opening_hours": "08:00 - 21:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 7,
+        "lat": 10.7950,
+        "lon": 106.7218,
+        "tags": {
+            "name": "Landmark 81 Skyview",
+            "tourism": "viewpoint",
+            "building": "skyscraper",
+            "amenity": "cafe",
+            "shop": "mall",
+            "address": "720A Điện Biên Phủ, Bình Thạnh",
+            "opening_hours": "09:30 - 22:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 8,
+        "lat": 10.7713,
+        "lon": 106.6932,
+        "tags": {
+            "name": "Bánh Mì Huỳnh Hoa",
+            "amenity": "fast_food",
+            "cuisine": "vietnamese",
+            "food": "banh_mi",
+            "address": "26 Lê Thị Riêng, Phạm Ngũ Lão, Quận 1",
+            "opening_hours": "11:00 - 21:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 9,
+        "lat": 10.7728,
+        "lon": 106.6986,
+        "tags": {
+            "name": "Pizza 4P's Ben Thanh",
+            "amenity": "restaurant",
+            "cuisine": "pizza",
+            "food": "italian",
+            "address": "8 Thủ Khoa Huân, Bến Thành, Quận 1",
+            "opening_hours": "10:00 - 22:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 10,
+        "lat": 10.7763,
+        "lon": 106.7067,
+        "tags": {
+            "name": "Saigon Waterbus Station",
+            "amenity": "ferry_terminal",
+            "leisure": "boat_trip",
+            "tourism": "attraction",
+            "address": "10B Tôn Đức Thắng, Bến Nghé, Quận 1",
+            "opening_hours": "07:00 - 19:30"
+        }
+    },
+    {
+        "type": "node",
+        "id": 11,
+        "lat": 10.7875,
+        "lon": 106.7053,
+        "tags": {
+            "name": "Thảo Cầm Viên (Saigon Zoo)",
+            "tourism": "zoo",
+            "leisure": "park",
+            "amenity": "botanical_garden",
+            "address": "2 Nguyễn Bỉnh Khiêm, Bến Nghé, Quận 1",
+            "opening_hours": "07:00 - 18:30",
+            "fee": "yes"
+        }
+    },
+    {
+        "type": "node",
+        "id": 12,
+        "lat": 10.7698,
+        "lon": 106.6993,
+        "tags": {
+            "name": "Bảo tàng Mỹ thuật TP.HCM",
+            "name:en": "Ho Chi Minh City Museum of Fine Arts",
+            "tourism": "museum",
+            "culture": "arts",
+            "architecture": "art_deco",
+            "address": "97A Phó Đức Chính, Quận 1",
+            "opening_hours": "08:00 - 17:00",
+            "fee": "yes"
+        }
+    },
+    {
+        "type": "node",
+        "id": 13,
+        "lat": 10.7756,
+        "lon": 106.6988,
+        "tags": {
+            "name": "Rabbit Hole Bar",
+            "amenity": "bar",
+            "nightlife": "cocktail",
+            "atmosphere": "speakeasy",
+            "leisure": "music",
+            "address": "138 Nam Kỳ Khởi Nghĩa, Bến Nghé, Quận 1",
+            "opening_hours": "18:00 - 02:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 14,
+        "lat": 10.7809,
+        "lon": 106.7003,
+        "tags": {
+            "name": "Đường sách Nguyễn Văn Bình",
+            "name:en": "Nguyen Van Binh Book Street",
+            "shop": "books",
+            "leisure": "park",
+            "amenity": "cafe",
+            "address": "Nguyễn Văn Bình, Bến Nghé, Quận 1",
+            "opening_hours": "08:00 - 22:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 15,
+        "lat": 10.7536,
+        "lon": 106.6643,
+        "tags": {
+            "name": "Chùa Bà Thiên Hậu",
+            "name:en": "Thien Hau Temple",
+            "amenity": "place_of_worship",
+            "tourism": "attraction",
+            "culture": "chinatown",
+            "address": "710 Nguyễn Trãi, Phường 11, Quận 5",
+            "opening_hours": "06:00 - 16:30"
+        }
+    },
+    {
+        "type": "node",
+        "id": 16,
+        "lat": 10.7496,
+        "lon": 106.6512,
+        "tags": {
+            "name": "Chợ Bình Tây (Chợ Lớn)",
+            "name:en": "Binh Tay Market",
+            "amenity": "marketplace",
+            "tourism": "attraction",
+            "historic": "building",
+            "address": "57A Tháp Mười, Phường 2, Quận 6",
+            "opening_hours": "06:00 - 19:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 17,
+        "lat": 10.7745,
+        "lon": 106.6912,
+        "tags": {
+            "name": "Công viên Tao Đàn",
+            "leisure": "park",
+            "leisure": "nature",
+            "sport": "exercise",
+            "address": "Trương Định, Phường Bến Thành, Quận 1",
+            "opening_hours": "04:00 - 22:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 18,
+        "lat": 10.7879,
+        "lon": 106.6901,
+        "tags": {
+            "name": "Nhà thờ Tân Định (Pink Church)",
+            "tourism": "attraction",
+            "amenity": "place_of_worship",
+            "building": "church",
+            "colour": "pink",
+            "address": "289 Hai Bà Trưng, Phường 8, Quận 3",
+            "opening_hours": "08:00 - 17:30"
+        }
+    },
+    {
+        "type": "node",
+        "id": 19,
+        "lat": 10.7972,
+        "lon": 106.7171,
+        "tags": {
+            "name": "Khu du lịch Văn Thánh",
+            "leisure": "resort",
+            "amenity": "restaurant",
+            "leisure": "park",
+            "leisure": "nature",
+            "address": "48/10 Điện Biên Phủ, Bình Thạnh",
+            "opening_hours": "09:00 - 21:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 20,
+        "lat": 10.7858,
+        "lon": 106.6874,
+        "tags": {
+            "name": "Phở Hòa Pasteur",
+            "amenity": "restaurant",
+            "cuisine": "pho",
+            "cuisine": "vietnamese",
+            "address": "260C Pasteur, Phường 8, Quận 3",
+            "opening_hours": "06:00 - 22:30"
+        }
+    },
+    {
+        "type": "node",
+        "id": 21,
+        "lat": 10.7758,
+        "lon": 106.6985,
+        "tags": {
+            "name": "Thư viện Khoa học Tổng hợp TP.HCM",
+            "amenity": "library",
+            "historic": "building",
+            "tourism": "attraction",
+            "address": "69 Lý Tự Trọng, Bến Thành, Quận 1",
+            "opening_hours": "07:30 - 17:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 22,
+        "lat": 10.7745,
+        "lon": 106.7018,
+        "tags": {
+            "name": "CGV Cinemas Liberty Citypoint",
+            "amenity": "cinema",
+            "leisure": "entertainment",
+            "address": "59 Pasteur, Bến Nghé, Quận 1",
+            "opening_hours": "09:00 - 01:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 23,
+        "lat": 10.8038,
+        "lon": 106.7385,
+        "tags": {
+            "name": "The Factory Contemporary Arts Centre",
+            "tourism": "gallery",
+            "tourism": "artwork",
+            "amenity": "cafe",
+            "address": "15 Nguyễn Ư Dĩ, Thảo Điền, Quận 2",
+            "opening_hours": "10:00 - 19:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 24,
+        "lat": 10.7652,
+        "lon": 106.6878,
+        "tags": {
+            "name": "Quán Ốc Đào",
+            "amenity": "restaurant",
+            "cuisine": "seafood",
+            "food": "street_food",
+            "address": "212B/C79 Nguyễn Trãi, Nguyễn Cư Trinh, Quận 1",
+            "opening_hours": "10:00 - 22:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 25,
+        "lat": 10.7665,
+        "lon": 106.6408,
+        "tags": {
+            "name": "Công viên Văn hóa Đầm Sen",
+            "tourism": "theme_park",
+            "leisure": "water_park",
+            "amenity": "entertainment",
+            "address": "3 Hòa Bình, Phường 3, Quận 11",
+            "opening_hours": "08:00 - 18:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 26,
+        "lat": 10.7766,
+        "lon": 106.7032,
+        "tags": {
+            "name": "Nhà hát Thành phố (Saigon Opera House)",
+            "amenity": "theatre",
+            "tourism": "attraction",
+            "architecture": "french_colonial",
+            "address": "07 Công Trường Lam Sơn, Bến Nghé, Quận 1",
+            "opening_hours": "Check Events"
+        }
+    },
+    {
+        "type": "node",
+        "id": 27,
+        "lat": 10.7205,
+        "lon": 106.7128,
+        "tags": {
+            "name": "Cầu Ánh Sao (Starlight Bridge)",
+            "tourism": "attraction",
+            "leisure": "park",
+            "highway": "pedestrian",
+            "address": "Khu đô thị Phú Mỹ Hưng, Quận 7",
+            "opening_hours": "24/7"
+        }
+    },
+    {
+        "type": "node",
+        "id": 28,
+        "lat": 10.7912,
+        "lon": 106.6890,
+        "tags": {
+            "name": "Cục Gạch Quán",
+            "amenity": "restaurant",
+            "cuisine": "vietnamese",
+            "atmosphere": "vintage",
+            "address": "10 Đặng Tất, Tân Định, Quận 1",
+            "opening_hours": "09:00 - 23:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 29,
+        "lat": 10.7705,
+        "lon": 106.6945,
+        "tags": {
+            "name": "Chill Skybar",
+            "tourism": "viewpoint",
+            "amenity": "bar",
+            "amenity": "club",
+            "address": "76A Lê Lai, Bến Thành, Quận 1",
+            "opening_hours": "17:30 - 02:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 30,
+        "lat": 10.7725,
+        "lon": 106.6980,
+        "tags": {
+            "name": "Chợ Bến Thành",
+            "amenity": "marketplace",
+            "shop": "souvenir",
+            "tourism": "attraction",
+            "address": "Lê Lợi, Bến Thành, Quận 1",
+            "opening_hours": "06:00 - 18:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 31,
+        "lat": 10.7720,
+        "lon": 106.6755,
+        "tags": {
+            "name": "Maison Marou Saigon",
+            "amenity": "cafe",
+            "shop": "chocolate",
+            "cuisine": "dessert",
+            "address": "167-169 Calmette, Nguyễn Thái Bình, Quận 1",
+            "opening_hours": "09:00 - 22:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 32,
+        "lat": 10.7738,
+        "lon": 106.6779,
+        "tags": {
+            "name": "Bảo tàng Y học Cổ truyền (FITO Museum)",
+            "name:en": "Museum of Traditional Vietnamese Medicine",
+            "tourism": "museum",
+            "culture": "medicine",
+            "historic": "building",
+            "address": "41 Hoàng Dư Khương, Phường 12, Quận 10",
+            "opening_hours": "08:30 - 17:00",
+            "fee": "yes"
+        }
+    },
+    {
+        "type": "node",
+        "id": 33,
+        "lat": 10.7924,
+        "lon": 106.6983,
+        "tags": {
+            "name": "Chùa Ngọc Hoàng (Jade Emperor Pagoda)",
+            "amenity": "place_of_worship",
+            "tourism": "attraction",
+            "religion": "taoist",
+            "address": "73 Mai Thị Lựu, Đa Kao, Quận 1",
+            "opening_hours": "07:00 - 18:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 34,
+        "lat": 10.7830,
+        "lon": 106.6960,
+        "tags": {
+            "name": "Hồ Con Rùa (Turtle Lake)",
+            "leisure": "park",
+            "amenity": "street_food",
+            "nightlife": "social",
+            "address": "Công trường Quốc tế, Quận 3",
+            "opening_hours": "24/7"
+        }
+    },
+    {
+        "type": "node",
+        "id": 35,
+        "lat": 10.7815,
+        "lon": 106.6918,
+        "tags": {
+            "name": "Acoustic Bar",
+            "amenity": "bar",
+            "nightlife": "live_music",
+            "leisure": "entertainment",
+            "address": "6E1 Ngô Thời Nhiệm, Võ Thị Sáu, Quận 3",
+            "opening_hours": "18:00 - 23:30"
+        }
+    },
+    {
+        "type": "node",
+        "id": 36,
+        "lat": 10.7668,
+        "lon": 106.6742,
+        "tags": {
+            "name": "Chợ Hoa & Ẩm thực Hồ Thị Kỷ",
+            "name:en": "Ho Thi Ky Flower & Food Market",
+            "amenity": "marketplace",
+            "cuisine": "street_food",
+            "tourism": "attraction",
+            "address": "Hẻm 52 Hồ Thị Kỷ, Phường 1, Quận 10",
+            "opening_hours": "15:00 - 23:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 37,
+        "lat": 10.7930,
+        "lon": 106.7215,
+        "tags": {
+            "name": "Công viên Vinhomes Central Park",
+            "leisure": "park",
+            "leisure": "playground",
+            "tourism": "viewpoint",
+            "address": "208 Nguyễn Hữu Cảnh, Bình Thạnh",
+            "opening_hours": "05:00 - 21:30"
+        }
+    },
+    {
+        "type": "node",
+        "id": 38,
+        "lat": 10.7860,
+        "lon": 106.6968,
+        "tags": {
+            "name": "Noir. Dining in the Dark",
+            "amenity": "restaurant",
+            "tourism": "experience",
+            "cuisine": "fusion",
+            "address": "178 Hai Bà Trưng, Đa Kao, Quận 1",
+            "opening_hours": "11:30 - 14:30, 17:30 - 23:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 39,
+        "lat": 10.7436,
+        "lon": 106.6995,
+        "tags": {
+            "name": "Artinus 3D Art Museum",
+            "tourism": "museum",
+            "leisure": "entertainment",
+            "tourism": "attraction",
+            "address": "2 Đường số 9, Tân Hưng, Quận 7",
+            "opening_hours": "09:00 - 18:00",
+            "fee": "yes"
+        }
+    },
+    {
+        "type": "node",
+        "id": 40,
+        "lat": 10.7723,
+        "lon": 106.7005,
+        "tags": {
+            "name": "Saigon Centre / Takashimaya",
+            "shop": "mall",
+            "amenity": "food_court",
+            "shop": "department_store",
+            "address": "92-94 Nam Kỳ Khởi Nghĩa, Bến Nghé, Quận 1",
+            "opening_hours": "09:30 - 21:30"
+        }
+    },
+    {
+        "type": "node",
+        "id": 41,
+        "lat": 10.7768,
+        "lon": 106.7010,
+        "tags": {
+            "name": "Pasteur Street Brewing Co.",
+            "amenity": "pub",
+            "cuisine": "craft_beer",
+            "nightlife": "brewery",
+            "address": "144 Pasteur, Bến Nghé, Quận 1",
+            "opening_hours": "11:00 - 23:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 42,
+        "lat": 10.7775,
+        "lon": 106.7015,
+        "tags": {
+            "name": "Secret Garden Restaurant",
+            "amenity": "restaurant",
+            "cuisine": "vietnamese",
+            "location": "rooftop",
+            "atmosphere": "cozy",
+            "address": "158 Pasteur, Bến Nghé, Quận 1",
+            "opening_hours": "11:00 - 22:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 43,
+        "lat": 10.7726,
+        "lon": 106.6965,
+        "tags": {
+            "name": "Đền thờ Mariamman",
+            "name:en": "Mariamman Hindu Temple",
+            "amenity": "place_of_worship",
+            "religion": "hindu",
+            "tourism": "attraction",
+            "address": "45 Trương Định, Bến Thành, Quận 1",
+            "opening_hours": "07:00 - 19:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 44,
+        "lat": 10.8241,
+        "lon": 106.8342,
+        "tags": {
+            "name": "Bảo tàng Áo Dài",
+            "name:en": "Ao Dai Museum",
+            "tourism": "museum",
+            "culture": "fashion",
+            "leisure": "garden",
+            "address": "206/19/30 Long Thuận, Long Phước, Quận 9",
+            "opening_hours": "08:30 - 17:30",
+            "fee": "yes"
+        }
+    },
+    {
+        "type": "node",
+        "id": 45,
+        "lat": 10.7748,
+        "lon": 106.7060,
+        "tags": {
+            "name": "Công viên Bến Bạch Đằng",
+            "leisure": "park",
+            "leisure": "riverside",
+            "tourism": "viewpoint",
+            "address": "Tôn Đức Thắng, Bến Nghé, Quận 1",
+            "opening_hours": "24/7"
+        }
+    },
+    {
+        "type": "node",
+        "id": 46,
+        "lat": 10.7784,
+        "lon": 106.7050,
+        "tags": {
+            "name": "Little Japan Town",
+            "tourism": "attraction",
+            "cuisine": "japanese",
+            "nightlife": "district",
+            "address": "15B Lê Thánh Tôn, Bến Nghé, Quận 1",
+            "opening_hours": "10:00 - 02:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 47,
+        "lat": 10.7950,
+        "lon": 106.7218,
+        "tags": {
+            "name": "Blank Lounge Landmark",
+            "amenity": "bar",
+            "amenity": "cafe",
+            "tourism": "viewpoint",
+            "address": "Tầng 75-76 Landmark 81, Bình Thạnh",
+            "opening_hours": "09:30 - 23:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 48,
+        "lat": 10.8636,
+        "lon": 106.8025,
+        "tags": {
+            "name": "Suối Tiên Theme Park",
+            "tourism": "theme_park",
+            "leisure": "water_park",
+            "tourism": "attraction",
+            "address": "120 Xa lộ Hà Nội, Tân Phú, Quận 9",
+            "opening_hours": "08:00 - 17:00",
+            "fee": "yes"
+        }
+    },
+    {
+        "type": "node",
+        "id": 49,
+        "lat": 10.7670,
+        "lon": 106.6385,
+        "tags": {
+            "name": "Công viên nước Đầm Sen",
+            "tourism": "theme_park",
+            "leisure": "water_park",
+            "leisure": "swimming_pool",
+            "address": "3 Hòa Bình, Phường 3, Quận 11",
+            "opening_hours": "08:30 - 17:30",
+            "fee": "yes"
+        }
+    },
+    {
+        "type": "node",
+        "id": 50,
+        "lat": 10.7905,
+        "lon": 106.6825,
+        "tags": {
+            "name": "Chùa Vĩnh Nghiêm",
+            "amenity": "place_of_worship",
+            "religion": "buddhist",
+            "tourism": "attraction",
+            "address": "339 Nam Kỳ Khởi Nghĩa, Phường 7, Quận 3",
+            "opening_hours": "07:00 - 21:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 51,
+        "lat": 10.7755,
+        "lon": 106.7072,
+        "tags": {
+            "name": "Cà phê Cô Ba Sài Gòn Rooftop",
+            "amenity": "cafe",
+            "tourism": "viewpoint",
+            "atmosphere": "vintage",
+            "address": "2 Đồng Khởi, Bến Nghé, Quận 1",
+            "opening_hours": "07:30 - 23:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 52,
+        "lat": 10.7748,
+        "lon": 106.6915,
+        "tags": {
+            "name": "Nhà hát Múa rối nước Rồng Vàng",
+            "amenity": "theatre",
+            "culture": "arts",
+            "tourism": "attraction",
+            "address": "55B Nguyễn Thị Minh Khai, Bến Thành, Quận 1",
+            "opening_hours": "17:00 - 20:30"
+        }
+    },
+    {
+        "type": "node",
+        "id": 53,
+        "lat": 10.7677,
+        "lon": 106.7574,
+        "tags": {
+            "name": "Snow Town Saigon",
+            "amenity": "entertainment",
+            "leisure": "sports_centre",
+            "tourism": "theme_park",
+            "address": "125 Đồng Văn Cống, Thạnh Mỹ Lợi, Quận 2",
+            "opening_hours": "09:00 - 19:00",
+            "fee": "yes"
+        }
+    },
+    {
+        "type": "node",
+        "id": 54,
+        "lat": 10.8005,
+        "lon": 106.6967,
+        "tags": {
+            "name": "Lăng Ông Bà Chiểu",
+            "historic": "memorial",
+            "amenity": "place_of_worship",
+            "tourism": "attraction",
+            "address": "1 Vũ Tùng, Phường 1, Bình Thạnh",
+            "opening_hours": "07:00 - 17:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 55,
+        "lat": 10.7873,
+        "lon": 106.7047,
+        "tags": {
+            "name": "Bảo tàng Lịch sử TP.HCM",
+            "tourism": "museum",
+            "culture": "history",
+            "address": "2 Nguyễn Bỉnh Khiêm, Bến Nghé, Quận 1",
+            "opening_hours": "08:00 - 17:00",
+            "fee": "yes"
+        }
+    },
+    {
+        "type": "node",
+        "id": 56,
+        "lat": 10.8015,
+        "lon": 106.7405,
+        "tags": {
+            "name": "Estella Place Mall",
+            "shop": "mall",
+            "amenity": "cinema",
+            "leisure": "playground",
+            "address": "88 Song Hành, An Phú, Quận 2",
+            "opening_hours": "09:30 - 22:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 57,
+        "lat": 10.7825,
+        "lon": 106.6970,
+        "tags": {
+            "name": "Social Club Restaurant (MGallery)",
+            "amenity": "restaurant",
+            "amenity": "bar",
+            "tourism": "viewpoint",
+            "address": "76-78 Nguyễn Thị Minh Khai, Quận 3",
+            "opening_hours": "11:00 - 24:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 58,
+        "lat": 10.7662,
+        "lon": 106.7065,
+        "tags": {
+            "name": "Công viên Nóc Hầm Thủ Thiêm",
+            "leisure": "park",
+            "tourism": "viewpoint",
+            "cuisine": "street_food",
+            "address": "Đại lộ Mai Chí Thọ, Quận 2",
+            "opening_hours": "16:00 - 22:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 59,
+        "lat": 10.7288,
+        "lon": 106.7192,
+        "tags": {
+            "name": "Crescent Mall",
+            "shop": "mall",
+            "amenity": "cinema",
+            "amenity": "food_court",
+            "address": "101 Tôn Dật Tiên, Tân Phú, Quận 7",
+            "opening_hours": "10:00 - 22:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 60,
+        "lat": 10.7895,
+        "lon": 106.6805,
+        "tags": {
+            "name": "Chùa Pháp Hoa",
+            "amenity": "place_of_worship",
+            "tourism": "attraction",
+            "leisure": "riverside",
+            "address": "870 Trường Sa, Phường 14, Quận 3",
+            "opening_hours": "06:00 - 21:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 61,
+        "lat": 10.7682,
+        "lon": 106.7068,
+        "tags": {
+            "name": "Bến Nhà Rồng (Ho Chi Minh Museum)",
+            "name:en": "Dragon Wharf / Ho Chi Minh Museum",
+            "tourism": "museum",
+            "historic": "memorial",
+            "culture": "history",
+            "address": "01 Nguyễn Tất Thành, Quận 4",
+            "opening_hours": "07:30 - 17:00",
+            "fee": "yes"
+        }
+    },
+    {
+        "type": "node",
+        "id": 62,
+        "lat": 10.7785,
+        "lon": 106.6480,
+        "tags": {
+            "name": "Chùa Giác Lâm (Giac Lam Pagoda)",
+            "historic": "monument",
+            "amenity": "place_of_worship",
+            "religion": "buddhist",
+            "tourism": "attraction",
+            "address": "565 Lạc Long Quân, Tân Bình",
+            "opening_hours": "05:00 - 20:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 63,
+        "lat": 10.7870,
+        "lon": 106.6645,
+        "tags": {
+            "name": "Công viên Lê Thị Riêng",
+            "leisure": "park",
+            "leisure": "playground",
+            "amenity": "entertainment",
+            "address": "875 Cách Mạng Tháng 8, Quận 10",
+            "opening_hours": "05:00 - 22:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 64,
+        "lat": 10.7778,
+        "lon": 106.7018,
+        "tags": {
+            "name": "Vincom Center Đồng Khởi",
+            "shop": "mall",
+            "amenity": "restaurant",
+            "amenity": "cafe",
+            "address": "72 Lê Thánh Tôn, Bến Nghé, Quận 1",
+            "opening_hours": "09:30 - 22:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65,
+        "lat": 10.7845,
+        "lon": 106.6908,
+        "tags": {
+            "name": "Bảo tàng Phụ nữ Nam Bộ",
+            "name:en": "Southern Women's Museum",
+            "tourism": "museum",
+            "culture": "history",
+            "address": "202 Võ Thị Sáu, Quận 3",
+            "opening_hours": "08:00 - 17:00",
+            "fee": "no"
+        }
+    },
+    {
+        "type": "node",
+        "id": 66,
+        "lat": 10.7612,
+        "lon": 106.7028,
+        "tags": {
+            "name": "Phố Ẩm thực Vĩnh Khánh",
+            "name:en": "Vinh Khanh Food Street",
+            "amenity": "food_court",
+            "cuisine": "seafood",
+            "cuisine": "street_food",
+            "address": "Vĩnh Khánh, Quận 4",
+            "opening_hours": "16:00 - 23:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 67,
+        "lat": 10.7730,
+        "lon": 106.6865,
+        "tags": {
+            "name": "Tượng đài Thích Quảng Đức",
+            "historic": "memorial",
+            "tourism": "attraction",
+            "address": "Ngã tư CMT8 - Nguyễn Đình Chiểu, Quận 3",
+            "opening_hours": "24/7"
+        }
+    },
+    {
+        "type": "node",
+        "id": 68,
+        "lat": 10.7518,
+        "lon": 106.6562,
+        "tags": {
+            "name": "Nhà thờ Cha Tam (St. Francis Xavier)",
+            "historic": "church",
+            "amenity": "place_of_worship",
+            "tourism": "attraction",
+            "culture": "chinatown",
+            "address": "25 Học Lạc, Quận 5",
+            "opening_hours": "07:00 - 18:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 69,
+        "lat": 10.7725,
+        "lon": 106.6948,
+        "tags": {
+            "name": "Galaxy Nguyễn Du Cinema",
+            "amenity": "cinema",
+            "leisure": "entertainment",
+            "address": "116 Nguyễn Du, Quận 1",
+            "opening_hours": "08:00 - 23:30"
+        }
+    },
+    {
+        "type": "node",
+        "id": 70,
+        "lat": 10.7795,
+        "lon": 106.7045,
+        "tags": {
+            "name": "L'Usine Le Thanh Ton",
+            "amenity": "cafe",
+            "amenity": "restaurant",
+            "shop": "boutique",
+            "address": "19 Lê Thánh Tôn, Quận 1",
+            "opening_hours": "07:30 - 21:30"
+        }
+    },
+    {
+        "type": "node",
+        "id": 71,
+        "lat": 10.7788,
+        "lon": 106.6982,
+        "tags": {
+            "name": "Propaganda Bistro",
+            "amenity": "restaurant",
+            "cuisine": "vietnamese",
+            "tourism": "artwork",
+            "address": "21 Hàn Thuyên, Quận 1",
+            "opening_hours": "07:30 - 22:30"
+        }
+    },
+    {
+        "type": "node",
+        "id": 72,
+        "lat": 10.7782,
+        "lon": 106.7048,
+        "tags": {
+            "name": "Sân khấu Kịch Idecaf",
+            "amenity": "theatre",
+            "culture": "arts",
+            "address": "28 Lê Thánh Tôn, Quận 1",
+            "opening_hours": "Check Events"
+        }
+    },
+    {
+        "type": "node",
+        "id": 73,
+        "lat": 10.7721,
+        "lon": 106.7002,
+        "tags": {
+            "name": "Saigon Square",
+            "shop": "mall",
+            "shop": "clothes",
+            "tourism": "shopping",
+            "address": "81 Nam Kỳ Khởi Nghĩa, Quận 1",
+            "opening_hours": "09:00 - 21:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 74,
+        "lat": 10.7520,
+        "lon": 106.6590,
+        "tags": {
+            "name": "Phố Đông Y Hải Thượng Lãn Ông",
+            "tourism": "attraction",
+            "historic": "street",
+            "shop": "herbalist",
+            "culture": "chinatown",
+            "address": "Hải Thượng Lãn Ông, Quận 5",
+            "opening_hours": "08:00 - 20:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 75,
+        "lat": 10.8673,
+        "lon": 106.8335,
+        "tags": {
+            "name": "Chùa Bửu Long",
+            "name:en": "Buu Long Pagoda",
+            "amenity": "place_of_worship",
+            "tourism": "attraction",
+            "architecture": "thai",
+            "address": "81 Nguyễn Xiển, Quận 9",
+            "opening_hours": "08:00 - 18:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 76,
+        "lat": 10.8550,
+        "lon": 106.6050,
+        "tags": {
+            "name": "Rin Rin Park (Công viên cá Koi)",
+            "leisure": "park",
+            "tourism": "theme_park",
+            "culture": "japanese",
+            "address": "87/8P Xuân Thới Thượng 6, Hóc Môn",
+            "opening_hours": "07:00 - 19:00",
+            "fee": "yes"
+        }
+    },
+    {
+        "type": "node",
+        "id": 77,
+        "lat": 10.7715,
+        "lon": 106.6855,
+        "tags": {
+            "name": "Vietgangz Brotherhood",
+            "amenity": "cafe",
+            "leisure": "social_club",
+            "atmosphere": "industrial",
+            "address": "2/45 Cao Thắng, Quận 3",
+            "opening_hours": "08:00 - 23:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 78,
+        "lat": 10.7508,
+        "lon": 106.6615,
+        "tags": {
+            "name": "Miếu Nhị Phủ (Chùa Ông Bổn)",
+            "historic": "monument",
+            "amenity": "place_of_worship",
+            "culture": "chinatown",
+            "address": "264 Hải Thượng Lãn Ông, Quận 5",
+            "opening_hours": "06:00 - 17:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 79,
+        "lat": 10.7760,
+        "lon": 106.6996,
+        "tags": {
+            "name": "Bảo tàng TP.HCM (Gia Long Palace)",
+            "name:en": "Ho Chi Minh City Museum",
+            "tourism": "museum",
+            "historic": "building",
+            "architecture": "french_colonial",
+            "address": "65 Lý Tự Trọng, Quận 1",
+            "opening_hours": "08:00 - 17:00",
+            "fee": "yes"
+        }
+    },
+    {
+        "type": "node",
+        "id": 80,
+        "lat": 10.7765,
+        "lon": 106.7070,
+        "tags": {
+            "name": "Bảo tàng Tôn Đức Thắng",
+            "tourism": "museum",
+            "culture": "history",
+            "historic": "memorial",
+            "address": "5 Tôn Đức Thắng, Quận 1",
+            "opening_hours": "07:30 - 17:00",
+            "fee": "no"
+        }
+    },
+    {
+        "type": "node",
+        "id": 81,
+        "lat": 10.7940,
+        "lon": 106.6915,
+        "tags": {
+            "name": "Phố Ẩm thực Phan Xích Long",
+            "amenity": "restaurant",
+            "cuisine": "variety",
+            "nightlife": "dining",
+            "address": "Phan Xich Long, Phú Nhuận",
+            "opening_hours": "09:00 - 23:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 82,
+        "lat": 10.7695,
+        "lon": 106.7055,
+        "tags": {
+            "name": "Cầu Mống (Mong Bridge)",
+            "tourism": "viewpoint",
+            "historic": "bridge",
+            "leisure": "park",
+            "address": "Bến Vân Đồn, Quận 4",
+            "opening_hours": "24/7"
+        }
+    },
+    {
+        "type": "node",
+        "id": 83,
+        "lat": 10.7716,
+        "lon": 106.7044,
+        "tags": {
+            "name": "Bitexco Financial Tower Skydeck",
+            "tourism": "viewpoint",
+            "amenity": "cafe",
+            "leisure": "entertainment",
+            "address": "2 Hải Triều, Quận 1",
+            "opening_hours": "09:30 - 21:30",
+            "fee": "yes"
+        }
+    },
+    {
+        "type": "node",
+        "id": 84,
+        "lat": 10.8305,
+        "lon": 106.6445,
+        "tags": {
+            "name": "Sân Golf Tân Sơn Nhất",
+            "leisure": "stadium",
+            "sport": "golf",
+            "amenity": "restaurant",
+            "address": "6 Tân Sơn, Gò Vấp",
+            "opening_hours": "05:30 - 22:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 85,
+        "lat": 10.7810,
+        "lon": 106.6990,
+        "tags": {
+            "name": "Diamond Plaza",
+            "shop": "mall",
+            "amenity": "cinema",
+            "leisure": "entertainment",
+            "address": "34 Lê Duẩn, Quận 1",
+            "opening_hours": "09:30 - 22:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 86,
+        "lat": 10.7438,
+        "lon": 106.6992,
+        "tags": {
+            "name": "Jump Arena Him Lam",
+            "leisure": "playground",
+            "sport": "trampoline",
+            "amenity": "entertainment",
+            "address": "2 Đường số 9, Quận 7",
+            "opening_hours": "09:00 - 20:00",
+            "fee": "yes"
+        }
+    },
+    {
+        "type": "node",
+        "id": 87,
+        "lat": 10.8285,
+        "lon": 106.7320,
+        "tags": {
+            "name": "Làng Du lịch Bình Quới 1",
+            "leisure": "resort",
+            "leisure": "park",
+            "cuisine": "vietnamese",
+            "address": "1147 Bình Quới, Bình Thạnh",
+            "opening_hours": "09:00 - 22:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 88,
+        "lat": 10.7688,
+        "lon": 106.6962,
+        "tags": {
+            "name": "Little HaNoi Egg Coffee (Yersin)",
+            "amenity": "cafe",
+            "cuisine": "egg_coffee",
+            "atmosphere": "vintage",
+            "address": "119/5 Yersin, Quận 1",
+            "opening_hours": "08:00 - 22:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 89,
+        "lat": 10.7702,
+        "lon": 106.6910,
+        "tags": {
+            "name": "Nhà thờ Huyện Sỹ",
+            "historic": "church",
+            "amenity": "place_of_worship",
+            "architecture": "gothic",
+            "address": "1 Tôn Thất Tùng, Quận 1",
+            "opening_hours": "05:00 - 19:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 90,
+        "lat": 10.7280,
+        "lon": 106.7185,
+        "tags": {
+            "name": "Hồ Bán Nguyệt (Crescent Lake)",
+            "leisure": "park",
+            "tourism": "viewpoint",
+            "leisure": "nature",
+            "address": "Tôn Dật Tiên, Quận 7",
+            "opening_hours": "24/7"
+        }
+    },
+    {
+        "type": "node",
+        "id": 91,
+        "lat": 10.8030,
+        "lon": 106.6225,
+        "tags": {
+            "name": "Aeon Mall Tân Phú Celadon",
+            "shop": "mall",
+            "amenity": "food_court",
+            "leisure": "entertainment",
+            "address": "30 Bờ Bao Tân Thắng, Tân Phú",
+            "opening_hours": "10:00 - 22:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 92,
+        "lat": 10.8545,
+        "lon": 106.7180,
+        "tags": {
+            "name": "Tu Viện Khánh An",
+            "name:en": "Khanh An Monastery",
+            "amenity": "place_of_worship",
+            "tourism": "attraction",
+            "architecture": "japanese_style",
+            "address": "1055/3D Quốc lộ 1A, Quận 12",
+            "opening_hours": "05:00 - 21:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 93,
+        "lat": 10.7768,
+        "lon": 106.6675,
+        "tags": {
+            "name": "Vạn Hạnh Mall",
+            "shop": "mall",
+            "amenity": "cinema",
+            "amenity": "restaurant",
+            "address": "11 Sư Vạn Hạnh, Quận 10",
+            "opening_hours": "09:30 - 22:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 94,
+        "lat": 10.7915,
+        "lon": 106.6870,
+        "tags": {
+            "name": "Chợ Tân Định",
+            "name:en": "Tan Dinh Market",
+            "amenity": "marketplace",
+            "shop": "fabric",
+            "cuisine": "street_food",
+            "address": "48 Mã Lộ, Tân Định, Quận 1",
+            "opening_hours": "05:00 - 18:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 95,
+        "lat": 10.7932,
+        "lon": 106.6915,
+        "tags": {
+            "name": "Cà phê Đỗ Phủ - Bệt Cà phê",
+            "amenity": "cafe",
+            "tourism": "museum",
+            "historic": "bunker",
+            "culture": "history",
+            "address": "113A Đặng Dung, Quận 1",
+            "opening_hours": "07:00 - 22:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 96,
+        "lat": 10.8345,
+        "lon": 106.6630,
+        "tags": {
+            "name": "Chợ Hạnh Thông Tây",
+            "name:en": "Hanh Thong Tay Night Market",
+            "amenity": "marketplace",
+            "shop": "clothes",
+            "nightlife": "shopping",
+            "address": "Quang Trung, Gò Vấp",
+            "opening_hours": "17:00 - 23:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 97,
+        "lat": 10.7882,
+        "lon": 106.6945,
+        "tags": {
+            "name": "Công viên Lê Văn Tám",
+            "leisure": "park",
+            "leisure": "playground",
+            "sport": "exercise",
+            "address": "Võ Thị Sáu, Đa Kao, Quận 1",
+            "opening_hours": "05:00 - 22:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 98,
+        "lat": 10.7555,
+        "lon": 106.6665,
+        "tags": {
+            "name": "Chợ An Đông",
+            "name:en": "An Dong Market",
+            "amenity": "marketplace",
+            "shop": "wholesale",
+            "tourism": "shopping",
+            "address": "Công trường An Đông, Quận 5",
+            "opening_hours": "07:00 - 18:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 99,
+        "lat": 10.7800,
+        "lon": 106.7420,
+        "tags": {
+            "name": "Pháp Viện Minh Đăng Quang",
+            "amenity": "place_of_worship",
+            "tourism": "attraction",
+            "religion": "buddhist",
+            "address": "505 Xa lộ Hà Nội, Quận 2",
+            "opening_hours": "08:00 - 20:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 100,
+        "lat": 10.8010,
+        "lon": 106.6635,
+        "tags": {
+            "name": "Công viên Hoàng Văn Thụ",
+            "leisure": "park",
+            "leisure": "nature",
+            "shape": "triangle",
+            "address": "Hoàng Văn Thụ, Tân Bình",
+            "opening_hours": "04:00 - 22:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 101,
+        "lat": 10.7350,
+        "lon": 106.6975,
+        "tags": {
+            "name": "SC VivoCity",
+            "shop": "mall",
+            "amenity": "cinema",
+            "leisure": "playground",
+            "address": "1058 Nguyễn Văn Linh, Quận 7",
+            "opening_hours": "10:00 - 22:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 102,
+        "lat": 10.7780,
+        "lon": 106.6875,
+        "tags": {
+            "name": "Chùa Xá Lợi",
+            "name:en": "Xa Loi Pagoda",
+            "amenity": "place_of_worship",
+            "historic": "monument",
+            "culture": "buddhism",
+            "address": "89 Bà Huyện Thanh Quan, Quận 3",
+            "opening_hours": "07:00 - 11:00, 14:00 - 17:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 103,
+        "lat": 10.8045,
+        "lon": 106.7450,
+        "tags": {
+            "name": "Saigon Outcast",
+            "leisure": "social_club",
+            "amenity": "bar",
+            "sport": "climbing",
+            "culture": "arts",
+            "address": "188/1 Nguyễn Văn Hưởng, Quận 2",
+            "opening_hours": "10:00 - 23:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 104,
+        "lat": 10.7728,
+        "lon": 106.6980,
+        "tags": {
+            "name": "Ben Thanh Street Food Market",
+            "amenity": "food_court",
+            "cuisine": "international",
+            "nightlife": "dining",
+            "address": "26-28 Thủ Khoa Huân, Quận 1",
+            "opening_hours": "09:00 - 23:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 105,
+        "lat": 10.7832,
+        "lon": 106.7015,
+        "tags": {
+            "name": "Hard Rock Cafe Ho Chi Minh City",
+            "amenity": "restaurant",
+            "amenity": "bar",
+            "leisure": "music",
+            "address": "39 Lê Duẩn, Quận 1",
+            "opening_hours": "11:00 - 23:30"
+        }
+    },
+    {
+        "type": "node",
+        "id": 106,
+        "lat": 10.7690,
+        "lon": 106.6990,
+        "tags": {
+            "name": "Chợ Dân Sinh",
+            "amenity": "marketplace",
+            "shop": "antique",
+            "tourism": "attraction",
+            "address": "104 Yersin, Quận 1",
+            "opening_hours": "07:00 - 18:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 107,
+        "lat": 10.7560,
+        "lon": 106.6640,
+        "tags": {
+            "name": "Chùa Ông (Nghĩa An Hội Quán)",
+            "historic": "monument",
+            "amenity": "place_of_worship",
+            "architecture": "chinese",
+            "address": "676 Nguyễn Trãi, Quận 5",
+            "opening_hours": "06:00 - 17:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 108,
+        "lat": 10.7385,
+        "lon": 106.6950,
+        "tags": {
+            "name": "Lotte Mart Nam Sài Gòn",
+            "shop": "mall",
+            "amenity": "cinema",
+            "shop": "supermarket",
+            "address": "469 Nguyễn Hữu Thọ, Quận 7",
+            "opening_hours": "08:00 - 22:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 109,
+        "lat": 10.7798,
+        "lon": 106.6965,
+        "tags": {
+            "name": "Công viên 30/4",
+            "leisure": "park",
+            "leisure": "nature",
+            "tourism": "picnic_site",
+            "address": "Lê Duẩn, Quận 1",
+            "opening_hours": "24/7"
+        }
+    },
+    {
+        "type": "node",
+        "id": 110,
+        "lat": 10.8080,
+        "lon": 106.7475,
+        "tags": {
+            "name": "The Deck Saigon",
+            "amenity": "restaurant",
+            "amenity": "bar",
+            "leisure": "riverside",
+            "tourism": "viewpoint",
+            "address": "38 Nguyễn Ư Dĩ, Quận 2",
+            "opening_hours": "08:00 - 23:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 111,
+        "lat": 10.7725,
+        "lon": 106.6915,
+        "tags": {
+            "name": "Sân khấu Trống Đồng",
+            "amenity": "theatre",
+            "leisure": "entertainment",
+            "address": "12B Cách Mạng Tháng 8, Quận 1",
+            "opening_hours": "Check Events"
+        }
+    },
+    {
+        "type": "node",
+        "id": 112,
+        "lat": 10.8495,
+        "lon": 106.6840,
+        "tags": {
+            "name": "Khu du lịch Bến Xưa",
+            "leisure": "resort",
+            "amenity": "restaurant",
+            "leisure": "garden",
+            "address": "39A Hà Huy Giáp, Quận 12",
+            "opening_hours": "08:00 - 21:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 113,
+        "lat": 10.7855,
+        "lon": 106.7065,
+        "tags": {
+            "name": "Cầu Thủ Thiêm 2 (Cầu Ba Son)",
+            "tourism": "viewpoint",
+            "highway": "bridge",
+            "tourism": "attraction",
+            "address": "Nối Quận 1 và Thủ Thiêm",
+            "opening_hours": "24/7"
+        }
+    },
+    {
+        "type": "node",
+        "id": 114,
+        "lat": 10.7570,
+        "lon": 106.6830,
+        "tags": {
+            "name": "Nhà thờ Chợ Quán",
+            "name:en": "Cho Quan Church",
+            "amenity": "place_of_worship",
+            "historic": "church",
+            "architecture": "gothic",
+            "address": "120 Trần Bình Trọng, Quận 5",
+            "opening_hours": "05:00 - 18:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 115,
+        "lat": 10.7708,
+        "lon": 106.7025,
+        "tags": {
+            "name": "Bảo tàng Địa chất TP.HCM",
+            "tourism": "museum",
+            "science": "geology",
+            "address": "2 Nguyễn Bỉnh Khiêm, Quận 1",
+            "opening_hours": "08:00 - 17:00",
+            "fee": "no"
+        }
+    },
+    {
+        "type": "node",
+        "id": 116,
+        "lat": 10.7415,
+        "lon": 106.7145,
+        "tags": {
+            "name": "Bảo tàng Tranh 3D Artinus",
+            "tourism": "museum",
+            "amenity": "entertainment",
+            "leisure": "arts_centre",
+            "address": "2 Đường số 9, Quận 7",
+            "opening_hours": "09:00 - 18:00",
+            "fee": "yes"
+        }
+    },
+    {
+        "type": "node",
+        "id": 117,
+        "lat": 10.8165,
+        "lon": 106.7085,
+        "tags": {
+            "name": "Gigamall Thủ Đức",
+            "shop": "mall",
+            "amenity": "cinema",
+            "amenity": "entertainment",
+            "address": "240 Phạm Văn Đồng, Thủ Đức",
+            "opening_hours": "09:30 - 22:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 118,
+        "lat": 10.7752,
+        "lon": 106.7048,
+        "tags": {
+            "name": "Parkson Saigontourist Plaza",
+            "shop": "mall",
+            "shop": "department_store",
+            "address": "35Bis-45 Lê Thánh Tôn, Quận 1",
+            "opening_hours": "09:30 - 22:00"
+        }
+    },
+    {
+        "type": "node",
+        "id": 119,
+        "lat": 10.8025,
+        "lon": 106.6650,
+        "tags": {
+            "name": "Bảo tàng Lực lượng Vũ trang Miền Đông",
+            "tourism": "museum",
+            "history": "military",
+            "address": "247 Hoàng Văn Thụ, Tân Bình",
+            "opening_hours": "08:00 - 16:30",
+            "fee": "no"
+        }
+    },
+    {
+        "type": "node",
+        "id": 120,
+        "lat": 10.7955,
+        "lon": 106.7135,
+        "tags": {
+            "name": "Công viên Tầm Vu",
+            "leisure": "park",
+            "leisure": "riverside",
+            "sport": "exercise",
+            "address": "Xô Viết Nghệ Tĩnh, Bình Thạnh",
+            "opening_hours": "24/7"
+        }
+    }
+    
+]
