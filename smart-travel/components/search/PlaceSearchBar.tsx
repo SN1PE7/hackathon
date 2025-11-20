@@ -133,7 +133,7 @@ const PlaceSearchBar: React.FC<PlaceSearchBarProps> = ({ onPlaceAdded }) => {
   };
 
   return (
-    <div className="w-full">
+    <div className="w-full relative">
       {/* Header toggle */}
       <button
         onClick={() => setIsOpen(!isOpen)}
@@ -146,78 +146,76 @@ const PlaceSearchBar: React.FC<PlaceSearchBarProps> = ({ onPlaceAdded }) => {
         />
       </button>
 
-      {/* Expandable content - positioned above */}
+      {/* Expandable content */}
       {isOpen && (
-        <div className="relative mt-0 mb-3 sm:mb-4">
-          <div className="bg-white border border-gray-300 rounded-lg p-3 sm:p-4 md:p-5 space-y-3 sm:space-y-4 shadow-xl border-t-0 rounded-t-none">
-            <div className="relative">
-              <div className="flex items-center gap-2 bg-gray-50 border border-gray-300 rounded-lg p-2 sm:p-3">
-                <FontAwesomeIcon icon={faSearch} className="text-gray-400 h-4 w-4 sm:h-5 sm:w-5 shrink-0" />
-                <input
-                  type="text"
-                  placeholder="Nhập tên địa điểm..."
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  className="flex-1 bg-transparent focus:outline-none text-gray-700 text-xs sm:text-sm md:text-base"
-                />
-                {searchQuery && (
-                  <button
-                    onClick={handleClear}
-                    className="text-gray-400 hover:text-gray-600 transition shrink-0"
-                  >
-                    <FontAwesomeIcon icon={faTimes} className="h-3 w-3 sm:h-4 sm:w-4" />
-                  </button>
-                )}
-                {isLoading && (
-                  <div className="animate-spin shrink-0">
-                    <FontAwesomeIcon icon={faSearch} className="h-3 w-3 sm:h-4 sm:w-4 text-blue-500" />
-                  </div>
-                )}
-              </div>
-
-              {/* Suggestions dropdown - positioned above and wider */}
-              {suggestions.length > 0 && !selectedPlace && (
-                <div
-                  ref={suggestionsRef}
-                  className="absolute bottom-full left-0 right-0 mb-2 bg-white border border-gray-300 rounded-lg shadow-2xl z-50 max-h-96 overflow-y-auto w-full sm:min-w-max sm:w-auto"
+        <div className="absolute left-0 right-0 top-full mt-0 bg-white border border-gray-300 rounded-lg p-3 sm:p-4 md:p-5 space-y-3 sm:space-y-4 shadow-xl z-9999">
+          <div className="relative">
+            <div className="flex items-center gap-2 bg-gray-50 border border-gray-300 rounded-lg p-2 sm:p-3">
+              <FontAwesomeIcon icon={faSearch} className="text-gray-400 h-4 w-4 sm:h-5 sm:w-5 shrink-0" />
+              <input
+                type="text"
+                placeholder="Nhập tên địa điểm..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="flex-1 bg-transparent focus:outline-none text-gray-700 text-xs sm:text-sm md:text-base"
+              />
+              {searchQuery && (
+                <button
+                  onClick={handleClear}
+                  className="text-gray-400 hover:text-gray-600 transition shrink-0"
                 >
-                  {suggestions.map((suggestion, index) => (
-                    <button
-                      key={index}
-                      onClick={() => handleSuggestionClick(suggestion)}
-                      className="w-full text-left px-3 sm:px-4 py-2 sm:py-3 hover:bg-blue-50 border-b border-gray-200 last:border-b-0 transition flex items-center justify-between group"
-                    >
-                      <span className="text-gray-700 truncate text-xs sm:text-sm md:text-base">{suggestion.display}</span>
-                      <FontAwesomeIcon
-                        icon={faPlus}
-                        className="h-3 w-3 sm:h-4 sm:w-4 text-gray-400 group-hover:text-blue-500 transition opacity-0 group-hover:opacity-100 shrink-0 ml-2"
-                      />
-                    </button>
-                  ))}
+                  <FontAwesomeIcon icon={faTimes} className="h-3 w-3 sm:h-4 sm:w-4" />
+                </button>
+              )}
+              {isLoading && (
+                <div className="animate-spin shrink-0">
+                  <FontAwesomeIcon icon={faSearch} className="h-3 w-3 sm:h-4 sm:w-4 text-blue-500" />
                 </div>
               )}
             </div>
 
-            {/* Selected place info */}
-            {selectedPlace && (
-              <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 sm:p-4">
-                <div className="mb-3">
-                  <h4 className="font-semibold text-gray-800 mb-1 text-xs sm:text-sm md:text-base">Địa điểm được chọn:</h4>
-                  <p className="text-gray-700 text-xs sm:text-sm md:text-base">{selectedPlace.display}</p>
-                  <p className="text-xs sm:text-sm text-gray-500 mt-1">
-                    Tọa độ: {selectedPlace.lat.toFixed(4)}, {selectedPlace.lng.toFixed(4)}
-                  </p>
-                </div>
-                <button
-                  onClick={handleAddToRoute}
-                  className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 rounded-lg flex items-center justify-center gap-2 transition text-xs sm:text-sm md:text-base"
-                >
-                  <FontAwesomeIcon icon={faPlus} className="h-3 w-3 sm:h-4 sm:w-4" />
-                  Thêm vào lộ trình
-                </button>
+            {/* Suggestions dropdown - positioned below input */}
+            {suggestions.length > 0 && !selectedPlace && (
+              <div
+                ref={suggestionsRef}
+                className="absolute top-full left-0 right-0 mt-1 bg-white border border-gray-300 rounded-b-lg shadow-2xl z-9999 max-h-96 overflow-y-auto w-full"
+              >
+                {suggestions.map((suggestion, index) => (
+                  <button
+                    key={index}
+                    onClick={() => handleSuggestionClick(suggestion)}
+                    className="w-full text-left px-3 sm:px-4 py-2 sm:py-3 hover:bg-blue-50 border-b border-gray-200 last:border-b-0 transition flex items-center justify-between group"
+                  >
+                    <span className="text-gray-700 truncate text-xs sm:text-sm md:text-base">{suggestion.display}</span>
+                    <FontAwesomeIcon
+                      icon={faPlus}
+                      className="h-3 w-3 sm:h-4 sm:w-4 text-gray-400 group-hover:text-blue-500 transition opacity-0 group-hover:opacity-100 shrink-0 ml-2"
+                    />
+                  </button>
+                ))}
               </div>
             )}
           </div>
+
+          {/* Selected place info */}
+          {selectedPlace && (
+            <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 sm:p-4">
+              <div className="mb-3">
+                <h4 className="font-semibold text-gray-800 mb-1 text-xs sm:text-sm md:text-base">Địa điểm được chọn:</h4>
+                <p className="text-gray-700 text-xs sm:text-sm md:text-base">{selectedPlace.display}</p>
+                <p className="text-xs sm:text-sm text-gray-500 mt-1">
+                  Tọa độ: {selectedPlace.lat.toFixed(4)}, {selectedPlace.lng.toFixed(4)}
+                </p>
+              </div>
+              <button
+                onClick={handleAddToRoute}
+                className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 rounded-lg flex items-center justify-center gap-2 transition text-xs sm:text-sm md:text-base"
+              >
+                <FontAwesomeIcon icon={faPlus} className="h-3 w-3 sm:h-4 sm:w-4" />
+                Thêm vào lộ trình
+              </button>
+            </div>
+          )}
         </div>
       )}
     </div>

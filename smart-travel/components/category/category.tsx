@@ -83,7 +83,7 @@ const Category: React.FC<CategoryProps> = ({ selectedCategories, onCategoryChang
           </button>
 
           {isOpen && (
-              <div className="absolute top-full left-0 mt-1 w-full bg-white border border-gray-200 rounded-md shadow-lg z-10 max-h-80 overflow-y-auto">
+              <div className="absolute top-full left-0 mt-1 w-full bg-white border border-gray-200 rounded-md shadow-lg z-9998 max-h-80 overflow-y-auto">
               {Object.entries(categoriesData).map(([group, items]) => (
                   <div key={group} className="p-2">
                   <h3 className="text-xs md:text-sm font-semibold capitalize text-gray-500 px-2 pt-2">{translations[group] || group}</h3>
