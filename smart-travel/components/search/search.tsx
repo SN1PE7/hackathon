@@ -134,7 +134,7 @@ const Search: React.FC<SearchProps> = ({ onLocationSelect }) => {
           </svg>
         </div>
         {isDropdownOpen && (
-          <div className="absolute top-full left-0 mt-1 w-full bg-white border border-gray-200 rounded-md shadow-lg z-10">
+          <div className="absolute top-full left-0 mt-1 w-full bg-white border border-gray-200 rounded-md shadow-lg z-9999">
             {options.map((option) => (
               <div
                 key={option}
@@ -157,7 +157,7 @@ const Search: React.FC<SearchProps> = ({ onLocationSelect }) => {
           onChange={(e) => setInputValue(e.target.value)}
         />
         {suggestions.length > 0 && (
-          <div className="absolute top-full left-0 mt-1 w-full bg-white border border-gray-200 rounded-md shadow-lg z-20 max-h-60 overflow-y-auto">
+          <div className="absolute top-full left-0 mt-1 w-full bg-white border border-gray-200 rounded-md shadow-lg z-9999 max-h-60 overflow-y-auto">
             {suggestions.map((suggestion, index) => (
               <div
                 key={index}

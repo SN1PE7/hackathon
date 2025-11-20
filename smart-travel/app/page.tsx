@@ -88,21 +88,19 @@ export default function Home() {
       {/* Search Section */}
       <div className="relative z-40 w-full px-4 sm:px-6 lg:px-8 -mt-12 sm:-mt-16 md:-mt-20 pb-8 md:pb-12">
         <div className="max-w-6xl mx-auto bg-gradient-to-r from-blue-900 to-blue-800 p-4 sm:p-5 md:p-6 rounded-xl shadow-lg space-y-3 sm:space-y-4">
-          <div className="overflow-x-auto">
+          <div className="relative z-9999">
             <Search onLocationSelect={handleLocationSelect} />
           </div>
-          <div className="overflow-x-auto">
-            <div className="min-w-full">
-              <Category 
-                selectedCategories={categories}
-                onCategoryChange={handleCategoryChange}
-                radius={radius}
-                onRadiusChange={setRadius}
-                onSearch={handleSearch}
-              />
-            </div>
+          <div className="relative z-9998">
+            <Category 
+              selectedCategories={categories}
+              onCategoryChange={handleCategoryChange}
+              radius={radius}
+              onRadiusChange={setRadius}
+              onSearch={handleSearch}
+            />
           </div>
-          <div className="relative z-50">
+          <div className="relative z-9997">
             <PlaceSearchBar />
           </div>
         </div>
