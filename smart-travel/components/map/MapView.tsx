@@ -130,7 +130,7 @@ const MapView: React.FC<MapViewProps> = ({ places = [], onRouteFetched, highligh
   const [route, setRoute] = useState<[number, number][]>([]);
   const [optimizedLineRoute, setOptimizedLineRoute] = useState<[number, number][]>([]);
   const defaultPosition: [number, number] = [10.776, 106.700]; // Saigon coordinates
-  const position = places.length > 0 ? [places[0].lat, places[0].lon] : defaultPosition;
+  const position: [number, number] = places.length > 0 ? [places[0].lat, places[0].lon] : defaultPosition;
   const pathOptions = { color: 'blue', weight: 5, opacity: 0.5 };
   const highlightPathOptions = { color: 'orange', weight: 7, opacity: 1 };
   const optimizedPathOptions = { color: 'green', weight: 6, opacity: 0.7, dashArray: '5, 5' };
