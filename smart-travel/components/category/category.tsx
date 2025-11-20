@@ -69,15 +69,15 @@ const Category: React.FC<CategoryProps> = ({ selectedCategories, onCategoryChang
   }, [dropdownRef]);
 
   return (
-    <div className="max-w-6xl mx-auto">
-      <div className="flex items-center gap-2">
-        <div className="relative w-full" ref={dropdownRef}>
+    <div className="w-full">
+      <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 sm:gap-2">
+        <div className="relative flex-1 min-w-0" ref={dropdownRef}>
           <button
               onClick={() => setIsOpen(!isOpen)}
-              className="w-full p-3 bg-white border border-gray-200 rounded-lg flex justify-between items-center"
+              className="w-full p-3 bg-white border border-gray-200 rounded-lg flex justify-between items-center hover:bg-gray-50 transition text-sm md:text-base"
           >
-              <span>{displaySelected()}</span>
-              <svg xmlns="http://www.w3.org/2000/svg" className={`h-5 w-5 transition-transform duration-200 ${isOpen ? 'transform rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <span className="truncate">{displaySelected()}</span>
+              <svg xmlns="http://www.w3.org/2000/svg" className={`h-5 w-5 transition-transform duration-200 shrink-0 ${isOpen ? 'transform rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
               </svg>
           </button>
@@ -86,12 +86,12 @@ const Category: React.FC<CategoryProps> = ({ selectedCategories, onCategoryChang
               <div className="absolute top-full left-0 mt-1 w-full bg-white border border-gray-200 rounded-md shadow-lg z-10 max-h-80 overflow-y-auto">
               {Object.entries(categoriesData).map(([group, items]) => (
                   <div key={group} className="p-2">
-                  <h3 className="text-sm font-semibold capitalize text-gray-500 px-2 pt-2">{translations[group] || group}</h3>
+                  <h3 className="text-xs md:text-sm font-semibold capitalize text-gray-500 px-2 pt-2">{translations[group] || group}</h3>
                   <ul>
                       {items.map(item => (
                       <li
                           key={item}
-                          className="p-2 hover:bg-gray-100 cursor-pointer flex items-center"
+                          className="p-2 hover:bg-gray-100 cursor-pointer flex items-center text-sm"
                           onClick={() => handleCategoryChange(item)}
                       >
                           <input
@@ -114,15 +114,15 @@ const Category: React.FC<CategoryProps> = ({ selectedCategories, onCategoryChang
             placeholder="Bán kính (m)"
             value={radius === null ? '' : radius}
             onChange={(e) => onRadiusChange(e.target.value === '' ? null : Number(e.target.value))}
-            className="p-3 bg-white border border-gray-200 rounded-lg w-48"
+            className="p-3 bg-white border border-gray-200 rounded-lg w-full sm:w-40 text-sm md:text-base"
         />
         <button 
             onClick={onSearch}
-            className="flex items-center bg-[#333333] text-white px-6 py-3 rounded-lg hover:bg-[#555555] focus:outline-none whitespace-nowrap cursor-pointer duration-300">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            className="flex items-center justify-center bg-[#333333] text-white px-4 md:px-6 py-3 rounded-lg hover:bg-[#555555] focus:outline-none whitespace-nowrap cursor-pointer duration-300 text-sm md:text-base font-medium">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 md:h-5 md:w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
             </svg>
-            <span className="ml-2 font-semibold">Tìm kiếm</span>
+            <span className="ml-2">Tìm kiếm</span>
         </button>
       </div>
     </div>

@@ -54,7 +54,7 @@ export default function Home() {
 
   return (
     <div>
-      <section className="relative h-[90vh] flex flex-col items-center justify-center text-center text-white">
+      <section className="relative h-screen md:h-[90vh] flex flex-col items-center justify-center text-center text-white pt-16 md:pt-0">
         <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
           <video
             autoPlay
@@ -68,37 +68,46 @@ export default function Home() {
           <img src="/curve-bg.png" alt="curve" className="absolute bottom-0 w-full z-20" />
         </div>
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-10"></div>
-        <div className="relative z-10 p-4">
+        <div className="relative z-10 p-4 md:p-0">
           <SplitText
             text="Chào mừng đến với SMART TRAVEL"
             tag="h1"
-            className="text-4xl md:text-6xl font-bold"
+            className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold px-2"
             splitType="chars"
             delay={50}
           />
           <SplitText
             text="Tạo lịch trình du lịch của riêng bạn chỉ với một vài cú nhấp chuột."
             tag="p"
-            className="mt-4 text-lg md:text-xl"
+            className="mt-2 sm:mt-3 md:mt-4 text-sm sm:text-base md:text-lg lg:text-xl px-2"
             splitType="words"
             delay={100}
           />
         </div>
       </section>
-      <div className="relative z-30 -mt-20 w-full px-4">
-        <div className="max-w-6xl mx-auto bg-linear-to-r from-blue-900 to-blue-800 p-6 rounded-xl shadow-lg space-y-4">
+      {/* Search Section */}
+      <div className="relative z-40 w-full px-4 sm:px-6 lg:px-8 -mt-12 sm:-mt-16 md:-mt-20 pb-8 md:pb-12">
+        <div className="max-w-6xl mx-auto bg-gradient-to-r from-blue-900 to-blue-800 p-4 sm:p-5 md:p-6 rounded-xl shadow-lg space-y-3 sm:space-y-4">
+          <div className="overflow-x-auto">
             <Search onLocationSelect={handleLocationSelect} />
-            <Category 
-              selectedCategories={categories}
-              onCategoryChange={handleCategoryChange}
-              radius={radius}
-              onRadiusChange={setRadius}
-              onSearch={handleSearch}
-            />
+          </div>
+          <div className="overflow-x-auto">
+            <div className="min-w-full">
+              <Category 
+                selectedCategories={categories}
+                onCategoryChange={handleCategoryChange}
+                radius={radius}
+                onRadiusChange={setRadius}
+                onSearch={handleSearch}
+              />
+            </div>
+          </div>
+          <div className="relative z-50">
             <PlaceSearchBar />
+          </div>
         </div>
       </div>
-      <div className="pb-12">
+      <div className="pb-8 md:pb-12">
         <PlacesSection places={places} loading={loading} />
       </div>
     </div>

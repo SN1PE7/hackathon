@@ -35,29 +35,29 @@ const PlaceCategoryRow: React.FC<PlaceCategoryRowProps> = ({ title, items }) => 
   };
 
   return (
-    <div className="mb-8 max-w-6xl mx-auto px-4">
-      <div className="mb-4 flex justify-between items-center">
-        <h2 className="text-2xl font-bold">{title}</h2>
+    <div className="mb-6 sm:mb-8 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="mb-3 sm:mb-4 flex justify-between items-center">
+        <h2 className="text-xl sm:text-2xl font-bold">{title}</h2>
         <div className="flex space-x-2">
           <button
             onClick={() => scroll(-500)}
-            className="bg-white w-9 h-9 flex items-center justify-center rounded-full shadow-md hover:bg-gray-100 transition cursor-pointer"
+            className="bg-white w-8 h-8 sm:w-9 sm:h-9 flex items-center justify-center rounded-full shadow-md hover:bg-gray-100 transition cursor-pointer flex-shrink-0"
             aria-label="Scroll Left"
           >
-            <FontAwesomeIcon icon={faChevronLeft} className="text-gray-700" />
+            <FontAwesomeIcon icon={faChevronLeft} className="text-gray-700 text-sm sm:text-base" />
           </button>
           <button
             onClick={() => scroll(500)}
-            className="bg-white w-9 h-9 flex items-center justify-center rounded-full shadow-md hover:bg-gray-100 transition cursor-pointer"
+            className="bg-white w-8 h-8 sm:w-9 sm:h-9 flex items-center justify-center rounded-full shadow-md hover:bg-gray-100 transition cursor-pointer flex-shrink-0"
             aria-label="Scroll Right"
           >
-            <FontAwesomeIcon icon={faChevronRight} className="text-gray-700" />
+            <FontAwesomeIcon icon={faChevronRight} className="text-gray-700 text-sm sm:text-base" />
           </button>
         </div>
       </div>
       <div
         ref={scrollContainerRef}
-        className="flex space-x-4 overflow-x-auto pb-4 hide-scrollbar"
+        className="flex space-x-3 sm:space-x-4 overflow-x-auto pb-4 hide-scrollbar"
       >
         {items.map((place) => (
           <PlaceCard key={place.id} place={place} />

@@ -39,18 +39,18 @@ const PlaceCard: React.FC<PlaceCardProps> = ({ place }) => {
   };
 
   return (
-    <div className="w-[calc(25%-1rem)] shrink-0 bg-white rounded-lg shadow-md p-4 border border-gray-200 flex flex-col justify-between">
+    <div className="w-[calc(100%-0.75rem)] sm:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)] xl:w-[calc(25%-1rem)] shrink-0 bg-white rounded-lg shadow-md p-3 sm:p-4 border border-gray-200 flex flex-col justify-between">
       <div>
-        <h3 className="font-bold text-lg mb-2">{nameVi || name || 'Chưa có tên'}</h3>
-        <div className="space-y-2 text-sm text-gray-600">
+        <h3 className="font-bold text-base sm:text-lg mb-2">{nameVi || name || 'Chưa có tên'}</h3>
+        <div className="space-y-2 text-xs sm:text-sm text-gray-600">
           <p><strong>Địa chỉ:</strong> {renderAddress()}</p>
           <p><strong>Giờ mở cửa:</strong> {opening_hours || 'Chưa có dữ liệu'}</p>
           <p><strong>Website:</strong> {website ? <a href={website} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Truy cập</a> : 'Chưa có dữ liệu'}</p>
         </div>
       </div>
-      <div className="flex justify-end mt-4">
-        <button onClick={() => addToSelection(place)} className="bg-blue-900 text-white px-3 py-1 rounded-md text-sm flex items-center space-x-2 cursor-pointer">
-            <FontAwesomeIcon icon={faPlus} className="h-4 w-4" />
+      <div className="flex justify-end mt-3 sm:mt-4">
+        <button onClick={() => addToSelection(place)} className="bg-blue-900 text-white px-2 sm:px-3 py-1 rounded-md text-xs sm:text-sm flex items-center space-x-2 cursor-pointer hover:bg-blue-800 transition">
+            <FontAwesomeIcon icon={faPlus} className="h-3 w-3 sm:h-4 sm:w-4" />
             <span>Chọn</span>
         </button>
       </div>

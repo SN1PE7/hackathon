@@ -32,6 +32,27 @@ export function useAuth() {
     }
   }, []);
 
+  // Listen for storage changes (for other tabs/windows)
+  useEffect(() => {
+    const handleStorageChange = (e: StorageEvent) => {
+      if (e.key === 'user') {
+        if (e.newValue) {
+          try {
+            setUser(JSON.parse(e.newValue));
+            setLoading(false);
+          } catch (error) {
+            console.error('Error parsing user from storage:', error);
+          }
+        } else {
+          setUser(null);
+        }
+      }
+    };
+
+    window.addEventListener('storage', handleStorageChange);
+    return () => window.removeEventListener('storage', handleStorageChange);
+  }, []);
+
   const fetchUserProfile = async (token: string) => {
     setLoading(true);
     try {

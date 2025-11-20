@@ -29,17 +29,17 @@ interface PlacesSectionProps {
 const PlacesSection: React.FC<PlacesSectionProps> = ({ places, loading }) => {
   if (loading) {
     return (
-      <div className="max-w-6xl h-screen mx-auto mt-8 px-4 text-center">
-        <p>Đang tìm kiếm địa điểm...</p>
+      <div className="max-w-6xl h-screen mx-auto mt-4 sm:mt-6 md:mt-8 px-4 text-center">
+        <p className="text-sm md:text-base">Đang tìm kiếm địa điểm...</p>
       </div>
     );
   }
 
   if (places.length === 0) {
     return (
-        <div className="text-center h-screen mt-12">
-            <img src="/travel.gif" alt="Travel Animation" className="mx-auto w-96 h-96" />
-            <p className="mt-4 text-lg text-gray-600">
+        <div className="text-center h-screen mt-8 sm:mt-12 px-4">
+            <img src="/travel.gif" alt="Travel Animation" className="mx-auto w-64 sm:w-80 md:w-96 h-64 sm:h-80 md:h-96" />
+            <p className="mt-4 text-sm sm:text-base md:text-lg text-gray-600 px-2">
                 Vui lòng chọn địa điểm, danh mục và bán kính để bắt đầu khám phá!
             </p>
         </div>
@@ -100,7 +100,7 @@ const PlacesSection: React.FC<PlacesSectionProps> = ({ places, loading }) => {
   };
 
   return (
-    <div className="mt-12">
+    <div className="mt-8 sm:mt-12 md:mt-16">
       {Object.entries(groupedPlaces).map(([category, items]) => (
         <PlaceCategoryRow 
           key={category}
